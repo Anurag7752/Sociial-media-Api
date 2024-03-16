@@ -16,7 +16,7 @@ app.use("/", (req, res, next) => {
 });
 
 
-mongoose.connect("mongodb+srv://admin848101:admin123@cluster0.6wwsdj0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("")
     .then(() => {
         app.listen(5000);
         console.log("Connected to database and listening on localhost:5000");
